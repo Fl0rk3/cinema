@@ -1,0 +1,72 @@
+#container>#alert {
+    background: url("../gfx/back.jpg");
+    background-size: auto;
+    color: white;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid #f5821e;
+}
+
+#container>#alert>#info {
+    width: 50%;
+    font-size: 20px;
+    padding: 50px 0;
+}
+
+#info>#topic {
+    color: #f5821e;
+    font-weight: 700;
+}
+
+#now {
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+#movies {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.movie {
+    margin: 20px 0;
+    box-sizing: border-box;
+    color: white;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.movie:hover {
+    cursor: pointer;
+}
+
+.movieImage {
+    width: 80%;
+}
+
+#title {
+    display: block;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#kalendarz {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    background: orange;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
